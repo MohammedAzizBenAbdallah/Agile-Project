@@ -52,7 +52,8 @@ const Login = () => {
           <label>Password</label>
           <div className="password-wrapper">
             <input
-              type={isPasswordVisible ? "text" : "password"}
+              // type={isPasswordVisible ? "text" : "password"}
+              type="password"
               placeholder="********"
               value={password}
               onChange={(e) => setPassword(e.target.value)}
